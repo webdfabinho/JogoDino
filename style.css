@@ -20,7 +20,7 @@ body {
 
 .game-over {
   text-align: center;
-  color: #666;
+  color: RED;
   margin: 50px 0;
   font-family: arial;
 }
@@ -36,11 +36,11 @@ body {
 
 .background {
   position: absolute;
-  bottom: 0px;
+  bottom: 30%;
   background-image: url('background.png');
   background-repeat: repeat-x;
   animation: slideright 600s infinite linear;
   -webkit-animation: slideright 600s infinite linear;
-  width: 100%;
+  width: 50%;
   height: 200px;
 }
